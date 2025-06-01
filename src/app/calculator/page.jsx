@@ -88,14 +88,14 @@ export default function Calculator() {
       <button onClick={()=>{
         document.documentElement.classList.toggle("dark")
       }} 
-      className=" absolute top-5 left-5 px-4 py-2 bg-gray-300 dark:bg-gray-700 text-black dark:text-white rounded-lg shadow dark:bg-gray-900 text-black dark:text-white"
+      className=" absolute top-5 left-5 px-4 py-2 bg-gray-300 dark:bg-gray-700 text-black dark:text-white rounded-lg shadow dark:bg-gray-900 text-black dark:text-white shadow-md"
       >
         🌓 تبديل الوضع
       </button>
       
       <h1 className="text-3xl font-bold text-green-700 mb-4" dark:bg-gray-900 text-black dark:text-white>زكاة المال</h1>
       
-      <div className="w-full max-w-md dark:bg-gray-900 p-6 rounded-xl shadow-md dark:bg-gray-900 text-black dark:text-white">
+      <div className="w-full max-w-md dark:bg-gray-900 p-6 rounded-xl shadow-md dark:bg-gray-900 text-black dark:text-white shadow-md">
         <label className="block text-right mb-2 font-medium text-gray-700 dark:bg-gray-900 text-black dark:text-white">
             أدخل نوع الزكاه:
         </label>
