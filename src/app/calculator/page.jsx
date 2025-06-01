@@ -104,7 +104,7 @@ export default function Calculator() {
             setTpye(e.target.value);
             setResult(null);
           } }
-           className="w-full p-3 rounded-lg border border-gray-300 mb-4 text-right dark:bg-gray-900 text-black dark:text-white"
+           className="w-full p-3 rounded-lg border border-gray-300 mb-4 text-right dark:bg-gray-900 text-black dark:text-black"
           >
         
           
@@ -121,7 +121,7 @@ export default function Calculator() {
         </select>
         {type === "money" && (
           <>
-          <label className="block text-right mb-2 font-medium text-gray-700"> 
+          <label className="block text-right mb-2 font-medium text-gray-700 "> 
             ادخل المبلغ بالجنيه</label>
           <input type="number" value={amount} 
           onChange={(e) => setAmount (e.target.value)}
