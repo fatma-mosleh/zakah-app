@@ -97,7 +97,7 @@ export default function Calculator() {
       
       <div className="w-full max-w-md dark:bg-gray-900 p-6 rounded-xl shadow-md">
         <label className="block text-right mb-2 font-medium text-gray-700">
-          أدخل المبلغ الذي تملكه بالجنيه:
+            أدخل نوع الزكاه:
         </label>
         <select  value ={type}
           onChange={(e) =>{
@@ -125,7 +125,7 @@ export default function Calculator() {
             ادخل المبلغ بالجنيه</label>
           <input type="number" value={amount} 
           onChange={(e) => setAmount (e.target.value)}
-          className="w-full p-3 rounded-lg border border-gray-300 mb-4 text-right"
+          className="w-full p-3 rounded-lg border border-gray-600 mb-4 text-right"
           placeholder="100000:مثلا"
           />
           
@@ -143,7 +143,7 @@ export default function Calculator() {
             value={weight}
             onChange={(e) => setWeight(e.target.value)}
             
-            className="w-full p-3 rounded-lg border border-gray-300 mb-4 text-right"
+            className="w-full p-3 rounded-lg border border-gray-600 mb-4 text-right"
               placeholder="مثلاً: 90"
             />
             <label className="block text-right mb-2 font-medium text-gray-700">
@@ -152,7 +152,7 @@ export default function Calculator() {
             <input type="number"
             value={price}
             onChange={(e) => setPrice(e.target.value)}
-            className="w-full p-3 rounded-lg border border-gray-300 mb-4 text-right"
+            className="w-full p-3 rounded-lg border border-gray-600 mb-4 text-right"
               placeholder="مثلاً: 3000"
             />
           </>
@@ -171,7 +171,7 @@ export default function Calculator() {
           <input type="number"
           value={good}
           onChange={(e)=> setGood(e.target.value)}
-           className="w-full p-3 rounded-lg border border-gray-300 mb-4 text-right"
+           className="w-full p-3 rounded-lg border border-gray-600 mb-4 text-right"
              placeholder="مثلاً: 50000"
           
           />
@@ -181,7 +181,7 @@ export default function Calculator() {
           <input type="number"
           value={cash}
           onChange={(e)=>setCash(e.target.value)}
-          className="w-full p-3 rounded-lg border border-gray-300 mb-4 text-right"
+          className="w-full p-3 rounded-lg border border-gray-600 mb-4 text-right"
             placeholder="مثلاً: 20000"
           
           />
@@ -192,7 +192,7 @@ export default function Calculator() {
           <input type="number"
           value={dbit}
           onChange={(e)=> setDbit(e.target.value)}
-          className="w-full p-3 rounded-lg border border-gray-300 mb-4 text-right"
+          className="w-full p-3 rounded-lg border border-gray-600 mb-4 text-right"
            placeholder="مثلاً: 10000"
           
           
