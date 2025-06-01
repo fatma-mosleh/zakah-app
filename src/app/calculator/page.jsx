@@ -83,7 +83,7 @@ export default function Calculator() {
   }
 
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center p-6 bg-white text-center">
+    <main className="min-h-screen flex flex-col items-center justify-center p-6 bg-white text-center dark:bg-gray-900 text-black dark:text-white">
      
       <button onClick={()=>{
         document.documentElement.classList.toggle("dark")
