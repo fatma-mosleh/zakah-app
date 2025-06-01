@@ -93,10 +93,10 @@ export default function Calculator() {
         🌓 تبديل الوضع
       </button>
       
-      <h1 className="text-3xl font-bold text-green-700 mb-4">زكاة المال</h1>
+      <h1 className="text-3xl font-bold text-green-700 mb-4" dark:bg-gray-900 text-black dark:text-white>زكاة المال</h1>
       
-      <div className="w-full max-w-md dark:bg-gray-900 p-6 rounded-xl shadow-md">
-        <label className="block text-right mb-2 font-medium text-gray-700">
+      <div className="w-full max-w-md dark:bg-gray-900 p-6 rounded-xl shadow-md dark:bg-gray-900 text-black dark:text-white">
+        <label className="block text-right mb-2 font-medium text-gray-700 dark:bg-gray-900 text-black dark:text-white">
             أدخل نوع الزكاه:
         </label>
         <select  value ={type}
@@ -104,7 +104,7 @@ export default function Calculator() {
             setTpye(e.target.value);
             setResult(null);
           } }
-           className="w-full p-3 rounded-lg border border-gray-300 mb-4 text-right"
+           className="w-full p-3 rounded-lg border border-gray-300 mb-4 text-right dark:bg-gray-900 text-black dark:text-white"
           >
         
           
