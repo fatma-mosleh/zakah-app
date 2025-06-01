@@ -88,7 +88,7 @@ export default function Calculator() {
       <button onClick={()=>{
         document.documentElement.classList.toggle("dark")
       }} 
-      className=" absolute top-5 left-5 px-4 py-2 bg-gray-300 dark:bg-gray-700 text-black dark:text-white rounded-lg shadow"
+      className=" absolute top-5 left-5 px-4 py-2 bg-gray-300 dark:bg-gray-700 text-black dark:text-white rounded-lg shadow dark:bg-gray-900 text-black dark:text-white"
       >
         🌓 تبديل الوضع
       </button>
